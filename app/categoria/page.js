@@ -11,7 +11,7 @@ import { useUserStorage } from "@/zustand";
 export default function CategoriasPage() {
   const [modalAberto, setModalAberto] = useState(false);
   const [nomeCategoria, setNomeCategoria] = useState("");
-  const [corCategoria, setCorCategoria] = useState("bg-purple-500");
+  const [corCategoria, setCorCategoria] = useState("bg-purple-500"); 
   const [materiaId, setMateriaId] = useState(""); 
   const [categoriaEditando, setCategoriaEditando] = useState(null);
 

@@ -18,6 +18,6 @@ export const useUserStorage = create(
       loggedUser: null,
       setLoggedUser: (loggedUser) => set({ loggedUser }),
     }),
-    { name: "user-storage" },
+    { name: "user-storage" }, 
   ),
 );
