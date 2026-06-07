@@ -11,7 +11,7 @@ export function Categoria({
 
       <button
         style={{
-          color: "red", 
+          color: "red",
           marginLeft: "10px",
         }}
         onClick={() => onDelete(categoria)}
